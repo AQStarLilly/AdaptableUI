@@ -1,0 +1,15 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/menuUI.USS?fileID=7433441132597879392&amp;guid=c3a6c4847541751478a2e5f8ac9b721f&amp;type=3#menuUI" />
+    <ui:VisualElement style="flex-grow: 1; align-self: center; font-size: 100px;">
+        <ui:Label text="Adjustable Screen" name="Title" />
+        <ui:VisualElement name="ButtonSettings" style="margin-bottom: 10px; margin-top: 10px; justify-content: flex-start;">
+            <ui:Button text="Play" name="Play" class="ButtonSettings" />
+            <ui:Button text="Settings" name="Settings" class="ButtonSettings" />
+            <ui:Button text="Quit" name="Quit" class="ButtonSettings" />
+        </ui:VisualElement>
+        <ui:VisualElement name="DebugTextArea" style="flex-grow: 1;">
+            <ui:Label name="DebugText" style="height: 161px; width: 856px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Button text="Credits" name="Credits" enable-rich-text="true" style="align-self: flex-end; width: 200px; height: 100px; font-size: 35px;" />
+</ui:UXML>

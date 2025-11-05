@@ -1,0 +1,3 @@
+.ButtonSettings:hover {
+    color: rgb(211, 255, 0);
+}
