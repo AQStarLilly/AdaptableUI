@@ -8,7 +8,7 @@
             <ui:Button text="Quit" name="Quit" class="ButtonSettings" />
         </ui:VisualElement>
         <ui:VisualElement name="DebugTextArea" style="flex-grow: 1;">
-            <ui:Label name="DebugText" style="height: 161px; width: 856px;" />
+            <ui:Label name="DebugText" style="height: 161px; width: 856px; font-size: 50px;" />
         </ui:VisualElement>
     </ui:VisualElement>
     <ui:Button text="Credits" name="Credits" enable-rich-text="true" style="align-self: flex-end; width: 200px; height: 100px; font-size: 35px;" />
